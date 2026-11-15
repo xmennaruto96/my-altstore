@@ -112,19 +112,19 @@
       "iconURL": "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/AppIcon1024.png",
       "tintColor": "#0784FC",
       "screenshotURLs": [],
-      "version": "3.8.13",
-      "versionDate": "2026-11-08T09:11:52Z",
-      "versionDescription": "[pre-release] **Commit:** [9d6ea09b05afa2c8fc537c372795a294db631311](https://github.com/LiveContainer/LiveContainer/commit/9d6ea09b05afa2c8fc537c372795a294db631311)\n**Message:** Support for built-in jit enablers, ram donors, helper process etc\n\nThis is a nightly release [created automatically with GitHub Actions workflow](https://github.com/LiveContainer/LiveContainer/actions/runs/42464599105/attempts/2).",
+      "version": "3.8.14",
+      "versionDate": "2026-11-15T14:10:10Z",
+      "versionDescription": "[pre-release] **Commit:** [b7cfda60c39933a94d616f2a358ac2e48fd4e5cd](https://github.com/LiveContainer/LiveContainer/commit/b7cfda60c39933a94d616f2a358ac2e48fd4e5cd)\n**Message:** don't load source until source view is opened, implement #1726, bump version\n\nThis is a nightly release [created automatically with GitHub Actions workflow](https://github.com/LiveContainer/LiveContainer/actions/runs/43722603537/attempts/1).",
       "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer.ipa",
-      "size": 4797973,
+      "size": 4800179,
       "versions": [
         {
-          "version": "3.8.13",
-          "buildVersion": "3.8.13",
-          "date": "2026-11-08T09:11:52Z",
-          "localizedDescription": "[pre-release] **Commit:** [9d6ea09b05afa2c8fc537c372795a294db631311](https://github.com/LiveContainer/LiveContainer/commit/9d6ea09b05afa2c8fc537c372795a294db631311)\n**Message:** Support for built-in jit enablers, ram donors, helper process etc\n\nThis is a nightly release [created automatically with GitHub Actions workflow](https://github.com/LiveContainer/LiveContainer/actions/runs/42464599105/attempts/2).",
+          "version": "3.8.14",
+          "buildVersion": "3.8.14",
+          "date": "2026-11-15T14:10:10Z",
+          "localizedDescription": "[pre-release] **Commit:** [b7cfda60c39933a94d616f2a358ac2e48fd4e5cd](https://github.com/LiveContainer/LiveContainer/commit/b7cfda60c39933a94d616f2a358ac2e48fd4e5cd)\n**Message:** don't load source until source view is opened, implement #1726, bump version\n\nThis is a nightly release [created automatically with GitHub Actions workflow](https://github.com/LiveContainer/LiveContainer/actions/runs/43722603537/attempts/1).",
           "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer.ipa",
-          "size": 4797973,
+          "size": 4800179,
           "minOSVersion": "15.0"
         },
         {
