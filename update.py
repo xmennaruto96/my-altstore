@@ -3,7 +3,7 @@ from datetime import datetime
 
 # ---- config -------------------------------------------------------------
 SOURCE = {
-    "name": "My Source",
+    "name": "My Sideload Source",
     "identifier": "com.example.mysource",   # change to something unique
 }
 MAX_VERSIONS = 10          # newest N builds kept per app
@@ -18,7 +18,8 @@ APPS = [
         "developer": "roothide",
         "subtitle": "roothide + Dopamine 3",
         "min_os": "15.0",
-        "tint": "097A73",
+        "tint": "#14B290",
+        "icon": "https://raw.githubusercontent.com/roothide/Dopamine-roothide/3.x/Application/Dopamine/Assets.xcassets/AppIcon.appiconset/Icon-60%403x.png",
     },
     {
         "repo": "LiveContainer/LiveContainer",
@@ -30,7 +31,8 @@ APPS = [
         "developer": "LiveContainer",
         "subtitle": "Run iOS apps without installing them",
         "min_os": "15.0",
-        "tint": "5B8DEF",
+        "tint": "#0784FC",
+        "icon": "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/AppIcon1024.png",
     },
     {
         "repo": "SideStore/SideStore",
@@ -40,7 +42,8 @@ APPS = [
         "developer": "SideStore Team",
         "subtitle": "Sideloading without a computer",
         "min_os": "15.0",
-        "tint": "8E44AD",
+        "tint": "#BA19F4",
+        "icon": "https://raw.githubusercontent.com/SideStore/SideStore/develop/AltStore/Resources/Icons.xcassets/AppIcon.appiconset/1024.png",
     },
     {
         "repo": "rooootdev/lara",
@@ -50,7 +53,8 @@ APPS = [
         "developer": "rooootdev",
         "subtitle": "lara",
         "min_os": "16.0",
-        "tint": "E67E22",
+        "tint": "#C013F5",
+        "icon": "https://raw.githubusercontent.com/rooootdev/lara/main/lara/other/media.xcassets/AppIcon.appiconset/square.png",
     },
 ]
 # -------------------------------------------------------------------------
