@@ -1,6 +1,9 @@
 {
   "name": "My Sideload Source",
   "identifier": "com.example.mysource",
+  "subtitle": "Sideloading apps, auto-updated from GitHub",
+  "tintColor": "#5E6C84",
+  "iconURL": "https://raw.githubusercontent.com/xmennaruto96/my-altstore/main/icons/generic.png",
   "apps": [
     {
       "name": "Dopamine (roothide)",
@@ -11,14 +14,14 @@
       "iconURL": "https://raw.githubusercontent.com/roothide/Dopamine-roothide/3.x/Application/Dopamine/Assets.xcassets/AppIcon.appiconset/Icon-60%403x.png",
       "tintColor": "#14B290",
       "screenshotURLs": [],
-      "version": "30",
+      "version": "3.0.13-30",
       "versionDate": "2026-11-06T02:18:04Z",
       "versionDescription": "bug fixes and stability enhancements",
       "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/30/Dopamine-roothide-3.0.13-30.ipa",
       "size": 55348740,
       "versions": [
         {
-          "version": "30",
+          "version": "3.0.13-30",
           "buildVersion": "1",
           "date": "2026-11-06T02:18:04Z",
           "localizedDescription": "bug fixes and stability enhancements",
@@ -27,7 +30,7 @@
           "minOSVersion": "15.0"
         },
         {
-          "version": "29",
+          "version": "3.0.12-29",
           "buildVersion": "1",
           "date": "2026-10-29T14:31:49Z",
           "localizedDescription": "1: fixed an issue where the messages app would lag\r\n\r\n2: update built-in sileo package",
@@ -36,7 +39,7 @@
           "minOSVersion": "15.0"
         },
         {
-          "version": "28",
+          "version": "3.0.12-28",
           "buildVersion": "1",
           "date": "2026-10-24T20:45:36Z",
           "localizedDescription": "roothide Dopamine 3 is now released and open source on github for everyone:\r\n\r\nhttps://x.com/roothideDev/status/2114091036318564808",
@@ -45,7 +48,7 @@
           "minOSVersion": "15.0"
         },
         {
-          "version": "27",
+          "version": "2.4.9.27",
           "buildVersion": "1",
           "date": "2026-09-12T11:13:19Z",
           "localizedDescription": "1: some improvements and fixes\r\n\r\n2: hide more jailbreak traces",
@@ -54,7 +57,7 @@
           "minOSVersion": "15.0"
         },
         {
-          "version": "26",
+          "version": "2.4.9.26",
           "buildVersion": "1",
           "date": "2026-09-07T08:45:39Z",
           "localizedDescription": "1: fix state consistency issues\r\n\r\n2: fix library trusting issues (eg: UTM)\r\n\r\n3: hide more jailbreak traces",
@@ -63,7 +66,7 @@
           "minOSVersion": "15.0"
         },
         {
-          "version": "25",
+          "version": "2.4.9.25",
           "buildVersion": "1",
           "date": "2026-06-12T09:35:45Z",
           "localizedDescription": "1: add ios16.7.16 support\r\n\r\n2: add procursus(alt) repo by default\r\n\r\n3: hide more jailbreak traces",
@@ -72,7 +75,7 @@
           "minOSVersion": "15.0"
         },
         {
-          "version": "24",
+          "version": "2.4.9.24",
           "buildVersion": "1",
           "date": "2026-04-23T03:00:30Z",
           "localizedDescription": "1: fix jailbreaking/rebooting user space issues for ios15 arm64e devices.\r\n\r\n2: hide more jailbreak traces.",
@@ -81,7 +84,7 @@
           "minOSVersion": "15.0"
         },
         {
-          "version": "23",
+          "version": "2.4.9.23",
           "buildVersion": "1",
           "date": "2026-04-19T16:59:42Z",
           "localizedDescription": "1: fixed the issue where jailbreak status was not recognized after jailbreaking with an IPA signed by SideStore etc.\r\n\r\n2: hide more jailbreak traces\r\n\r\n***there is a bug in this version: kernel panic when rebooting userspace on ios15 arm64e devices***",
@@ -90,7 +93,7 @@
           "minOSVersion": "15.0"
         },
         {
-          "version": "22",
+          "version": "2.4.9.22",
           "buildVersion": "1",
           "date": "2026-04-01T09:26:28Z",
           "localizedDescription": "1: fixed an issue where web pages might fail to load in Lockdown Mode\r\n\r\n2: add DarkSword kernel exploit to support for iOS 15.8.7 (A9-A10) and iOS 16.7 - 16.7.15 (arm64)\r\n\r\n3: Installation via non-TrollStore methods (signed IPA file) is now supported\r\n\r\n4: fix an issue where `frida -f` might not work correctly on iOS 15.\r\n\r\n5: update built-in sileo and roothide manager packages\r\n\r\n6: other optimizations and improvements\r\n\r\n7: hide more jailbreak traces",
@@ -109,15 +112,15 @@
       "iconURL": "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/AppIcon1024.png",
       "tintColor": "#0784FC",
       "screenshotURLs": [],
-      "version": "2026.11.08-nightly",
+      "version": "3.8.13",
       "versionDate": "2026-11-08T09:11:52Z",
       "versionDescription": "[pre-release] **Commit:** [9d6ea09b05afa2c8fc537c372795a294db631311](https://github.com/LiveContainer/LiveContainer/commit/9d6ea09b05afa2c8fc537c372795a294db631311)\n**Message:** Support for built-in jit enablers, ram donors, helper process etc\n\nThis is a nightly release [created automatically with GitHub Actions workflow](https://github.com/LiveContainer/LiveContainer/actions/runs/42464599105/attempts/2).",
       "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer.ipa",
       "size": 4797973,
       "versions": [
         {
-          "version": "2026.11.08-nightly",
-          "buildVersion": "1",
+          "version": "3.8.13",
+          "buildVersion": "3.8.13",
           "date": "2026-11-08T09:11:52Z",
           "localizedDescription": "[pre-release] **Commit:** [9d6ea09b05afa2c8fc537c372795a294db631311](https://github.com/LiveContainer/LiveContainer/commit/9d6ea09b05afa2c8fc537c372795a294db631311)\n**Message:** Support for built-in jit enablers, ram donors, helper process etc\n\nThis is a nightly release [created automatically with GitHub Actions workflow](https://github.com/LiveContainer/LiveContainer/actions/runs/42464599105/attempts/2).",
           "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer.ipa",
@@ -126,7 +129,7 @@
         },
         {
           "version": "3.8.0",
-          "buildVersion": "1",
+          "buildVersion": "3.8.0",
           "date": "2026-07-17T07:44:20Z",
           "localizedDescription": "# \u26a0\ufe0fThis build is OUTDATED. Please use [nightly version](https://github.com/LiveContainer/LiveContainer/releases/tag/nightly) instead.\r\n\r\n# LiveContainer 3.8.0\r\n\r\n> [!Warning]\r\n> The standalone version requires **SideStore 0.6.2+** or **AltStore 2.2.1+** for installation.\r\n> To install LiveContainer with built-in SideStore (`LiveContainer+SideStore.ipa`), please use [Impactor](https://github.com/khcrysalis/Impactor) or [iloader](https://github.com/nab138/iloader). See [our installation guide](ht",
           "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
@@ -135,7 +138,7 @@
         },
         {
           "version": "3.7.2",
-          "buildVersion": "1",
+          "buildVersion": "3.7.2",
           "date": "2026-02-27T04:18:41Z",
           "localizedDescription": "> [!Warning]\r\n> The standalone version requires **SideStore 0.6.2+** or **AltStore 2.2.1+** for installation.\r\n> To install LiveContainer with built-in SideStore (LiveContainer+SideStore.ipa), please use [Impactor](https://github.com/khcrysalis/Impactor) or [iloader](https://github.com/nab138/iloader). See [our installation guide](https://livecontainer.github.io/docs/installation/lc_sidestore) for details.\r\n\r\n>[!Note]\r\n> This a minor release that solves the following issues in version 3.7.0 and ",
           "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer.ipa",
@@ -144,7 +147,7 @@
         },
         {
           "version": "3.7.0",
-          "buildVersion": "1",
+          "buildVersion": "3.7.0",
           "date": "2026-02-19T03:17:54Z",
           "localizedDescription": "# LiveContainer 3.7.0\r\n\r\n> [!Warning]\r\n> The standalone version requires **SideStore 0.6.2+** or **AltStore 2.2.1+** for installation.\r\n> We recommend installing LiveContainer + SideStore using [Impactor](https://github.com/khcrysalis/Impactor) or [iloader](https://github.com/nab138/iloader). See [our installation guide](https://livecontainer.github.io/docs/installation/lc_sidestore) for details.\r\n\r\nHappy Spring Festival / Lunar New Year! After six months of development, we\u2019re excited to release",
           "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.0/LiveContainer.ipa",
@@ -153,7 +156,7 @@
         },
         {
           "version": "3.6.1",
-          "buildVersion": "1",
+          "buildVersion": "3.6.1",
           "date": "2025-08-19T04:15:32Z",
           "localizedDescription": "# \u26a0\ufe0fThis version \u26a0\ufe0fREQUIRES\u26a0\ufe0f SideStore 0.6.2+ / AltStore 2.2.1+ to install.\r\n>[!Note]\r\n> This a minor release that solves the following issues in version 3.6.0 and adds the following features. For more information, please see [3.6.0 release note](https://github.com/LiveContainer/LiveContainer/releases/tag/3.6.0).\r\n\r\n- Fixed an issue where symbol offset caches were not reset after an iOS update, causing crashes. Fixes #765 #757 #760  \r\n- Fixed a bug where window controls could appear behind the ",
           "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.6.1/LiveContainer.ipa",
@@ -162,7 +165,7 @@
         },
         {
           "version": "3.6.0",
-          "buildVersion": "1",
+          "buildVersion": "3.6.0",
           "date": "2025-08-01T07:55:01Z",
           "localizedDescription": "# \u26a0\ufe0fThis version \u26a0\ufe0fREQUIRES\u26a0\ufe0f SideStore 0.6.2+ / AltStore 2.2.1+ to install.\r\n>[!Note]\r\n> Yes, as heralded in the 3.5.0 release, and due to the removal of Store patching, SideStore 0.6.2+ / AltStore 2.2.1+ is required to install this version of LiveContainer. You can use \"Import/Refresh Certificate from AltStore/SideStore\" button to setup JIT-Less mode.\r\n\r\nThis version of LiveContainer focuses on quality-of-life improvements, new features such as app sorting and enhanced multitasking, as well as",
           "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.6.0/LiveContainer.ipa",
@@ -171,7 +174,7 @@
         },
         {
           "version": "3.5.1",
-          "buildVersion": "1",
+          "buildVersion": "3.5.1",
           "date": "2025-06-16T06:26:06Z",
           "localizedDescription": "# \u26a0\ufe0fThis version \u26a0\ufe0fREQUIRES\u26a0\ufe0f SideStore 0.6.0+ / AltStore 2.0+ to install.\r\n>[!NOTE]\r\n> This a minor release that solves the following issues in version 3.5.0. For more information, please see [3.5.0 release note](https://github.com/LiveContainer/LiveContainer/releases/tag/3.5.0).\r\n\r\n# Improvement\r\nFix #590: We adopted a new method for relaunching LiveContainer which makes apps launch faster compared to 3.5.0. by @khanhduytran0\r\n\r\n# Bug Fix\r\nFix Liquid Glass option need to be toggled off and on ",
           "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.5.1/LiveContainer.ipa",
@@ -180,7 +183,7 @@
         },
         {
           "version": "3.5.0",
-          "buildVersion": "1",
+          "buildVersion": "3.5.0",
           "date": "2025-06-15T14:26:24Z",
           "localizedDescription": "# \u26a0\ufe0fThis version \u26a0\ufe0fREQUIRES\u26a0\ufe0f SideStore 0.6.0+ / AltStore 2.0+ to install.\r\n>[!Note]\r\n> We recommend using SideStore 0.6.2-20250420.25+ or AltStore 2.2.1+ to import your certificate directly, without needing to apply a patch when setting up JIT-Less mode.\r\n\r\nAfter two months of development, we're proud to announce the release of LiveContainer 3.5.0! This update brings powerful new features like multitasking and better ADP certificate support, along with several bug fixes, improvements, and new l",
           "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.5.0/LiveContainer.ipa",
@@ -189,7 +192,7 @@
         },
         {
           "version": "3.4.0",
-          "buildVersion": "1",
+          "buildVersion": "3.4.0",
           "date": "2025-04-20T10:41:31Z",
           "localizedDescription": "# \u26a0\ufe0fThis version \u26a0\ufe0fREQUIRES\u26a0\ufe0f SideStore 0.6.0+ / AltStore 2.0+ to install.\r\n\r\nThis version improved app re-signing experience, add support for new JIT enablers, increased compatibility with relatively old apps and add translation for Arabic, French, German, Japanese, Portuguese and Swedish.\r\n\r\n>[!Note]\r\nLiveContainer has upgraded SDK version to 18.2, which breaks some apps that works on previous versions. Fortunately we have developed the \"Spoof SDK Version\" feature, forcing system libraries to ",
           "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.4.0/LiveContainer.ipa",
@@ -215,7 +218,7 @@
       "versions": [
         {
           "version": "0.7.0-20261027.1507+cd260851",
-          "buildVersion": "1",
+          "buildVersion": "0700",
           "date": "2026-10-27T04:19:40Z",
           "localizedDescription": "[pre-release] This is an \u26a0\ufe0f **EXPERIMENTAL** \u26a0\ufe0f Nightly build for commit [cd260851ae99bf1fc946b123db24e89c8cd21dc6](https://github.com/SideStore/SideStore/commit/cd260851ae99bf1fc946b123db24e89c8cd21dc6).\n\nNightly builds are **extremely experimental builds only meant to be used by developers and beta testers. They often contain bugs and experimental features. Use at your own risk!**\n\n## Build Info\n\nBuilt at (UTC): `Tue Oct 27 04:19:32 2026`\nBuilt at (UTC date): `2026-10-27`\nCommit SHA: `cd260851ae99bf1fc946b1",
           "downloadURL": "https://github.com/SideStore/SideStore/releases/download/nightly/SideStore.ipa",
@@ -224,7 +227,7 @@
         },
         {
           "version": "0.7.0-20260911.328+6032424a",
-          "buildVersion": "1",
+          "buildVersion": "0700",
           "date": "2026-09-15T11:12:49Z",
           "localizedDescription": "## Build Info\r\n\r\nBuilt at (UTC): `Fri Sep 11 21:25:58 2026`\r\nBuilt at (UTC date): `2026-09-11`\r\nCommit SHA: `6032424a0e56c1c319762e786099bdd9186a238b`\r\nVersion: `0.7.0-20260911.328+6032424a`\r\n\r\n#### What's Changed:\r\n- **fixes for 503 during sign-in**: There were some changes from apple server side which broke 0.6.4 and prior versions and prevent them from signing into sidestore. This temporary version addresses the sign-in issue with 503 status code\r\n\r\n#### Full Changelog: [0.6.4...0.7.0-alpha](",
           "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.7.0-alpha/SideStore.ipa",
@@ -233,7 +236,7 @@
         },
         {
           "version": "0.6.4",
-          "buildVersion": "1",
+          "buildVersion": "0604",
           "date": "2026-09-09T17:59:48Z",
           "localizedDescription": "# :x: DO NOT USE SIGN-IN IS BROKEN ON 0.6.4 AND BEFORE\r\n\r\n\r\n## Build Info\r\n\r\nBuilt at (UTC): `Wed Sep 09 17:59:46 2026`\r\nBuilt at (UTC date): `2026-09-09`\r\nCommit SHA: `f93a95c079057090bea355453ef24f6e8668dfa9`\r\nVersion: `0.6.4`\r\n\r\n#### What's Changed:\r\n- **Developer Portal in Settings**: Manage your Apple Developer App IDs, Provisioning Profiles, Certificates, Devices, and App Groups directly inside the app for both paid and free team types.\r\n- **Manual Profile Creation**: Paid developer accoun",
           "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.6.4/SideStore.ipa",
@@ -242,7 +245,7 @@
         },
         {
           "version": "0.6.3",
-          "buildVersion": "1",
+          "buildVersion": "0603",
           "date": "2026-05-05T03:59:02Z",
           "localizedDescription": "# \u26a0\ufe0f**Please Reinstall With [iloader](https://iloader.app/)**\u26a0\ufe0f\r\nIf you have updated to iOS 26.4+ and are receiving VPN errors.\r\n## What's Changed\r\n* Small fixes by @CelloSerenity in https://github.com/SideStore/SideStore/pull/1020\r\n* Fix expired Discord link in README.md by @Or3nges in https://github.com/SideStore/SideStore/pull/1101\r\n* Update error codes by @CelloSerenity in https://github.com/SideStore/SideStore/pull/1078\r\n* LocalDevVPN by @CelloSerenity in https://github.com/SideStore/SideSt",
           "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.6.3/SideStore.ipa",
@@ -251,7 +254,7 @@
         },
         {
           "version": "0.6.2",
-          "buildVersion": "1",
+          "buildVersion": "0602",
           "date": "2025-07-01T01:25:22Z",
           "localizedDescription": "## Build Info\r\nBuilt at (UTC): `Tue Jul  1 01:20:17 2025`\r\nBuilt at (UTC date): `2025-07-01`\r\nCommit SHA: `685d9567752c6b7396304f8b64f0f713f52cf936`\r\nVersion: `0.6.2`\r\n\r\n## What's Changed\r\n* Rebase 2.0 wip by @nythepegasus in https://github.com/SideStore/SideStore/pull/794\r\n* [Refresh]: Remove install stuffs from refresh since in refresh should only renew provisioning profiles by @mahee96 in https://github.com/SideStore/SideStore/pull/846\r\n* [Settings]: Fix: DisableAppLimit switch reverting back",
           "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.6.2/SideStore.ipa",
@@ -260,7 +263,7 @@
         },
         {
           "version": "0.6.1",
-          "buildVersion": "1",
+          "buildVersion": "0601",
           "date": "2025-04-09T05:13:15Z",
           "localizedDescription": "## Changelog\r\n\r\nIt's spring already? Here's a new update that should fix migration issues from 0.5.9/0.5.10 and an expiration bug. Happy sideloading!\r\n\r\n## Build Info\r\n\r\nBuilt at (UTC): `Wed Apr  9 05:11:28 2025`\r\nBuilt at (UTC date): `2025-04-09`\r\nCommit SHA: `2b71c36ace946bdcc39fe02918a0da71ff91016c`\r\nVersion: `0.6.1`\r\n\r\n## What's Changed\r\n* fix: typo in hasUpdate comparison by @l2dy in https://github.com/SideStore/SideStore/pull/900\r\n* Update SettingsViewController.swift by @neoarz in https:/",
           "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.6.1/SideStore.ipa",
@@ -269,7 +272,7 @@
         },
         {
           "version": "0.6.0",
-          "buildVersion": "1",
+          "buildVersion": "6000",
           "date": "2025-03-08T20:08:22Z",
           "localizedDescription": "<!-- NOTE: to reset SideSource cache, go to `https://apps.sidestore.io/reset-cache/nightly/<sidesource key>`. This is not included in the GitHub Action since it makes draft releases so they can be edited and have a changelog. -->\r\n## Changelog\r\n\r\nIt\u2019s March and we have some big changes. We\u2019ve finally included altstore 2.0 changes into SideStore. So you will get all the benefits of that and also some fixes in SideStore. Enjoy!\r\n\r\n## Build Info\r\n\r\nBuilt at (UTC): `Sat Mar  8 18:42:25 2025`\r\nBuilt ",
           "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.6.0/SideStore.ipa",
@@ -277,13 +280,13 @@
           "minOSVersion": "15.0"
         },
         {
-          "version": "0.5.10",
+          "version": "0.5.10-pr.812+2d17a45",
           "buildVersion": "1",
           "date": "2024-12-27T08:53:47Z",
           "localizedDescription": "This is a hot fix for previous update causing source issues.",
           "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.5.10/SideStore.ipa",
           "size": 9267842,
-          "minOSVersion": "15.0"
+          "minOSVersion": "14.0"
         },
         {
           "version": "0.5.9",
@@ -292,7 +295,7 @@
           "localizedDescription": "We got another update, just in time for Christmas! (depending on where you live)\r\n\r\nBefore we bring in 0.6.0 with AltStore 2.0 fully merged, consider this as a point update for all the fun things we made before it!\r\n\r\n## What's Changed\r\n* feat: show custom anisette server list if set by @moonsn in https://github.com/SideStore/SideStore/pull/717\r\n* Fix for Refresh Operation causing renewal/install of provisioning profiles for removed app extensions by @mahee96 in https://github.com/SideStore/Side",
           "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.5.9/SideStore.ipa",
           "size": 9266547,
-          "minOSVersion": "15.0"
+          "minOSVersion": "14.0"
         },
         {
           "version": "0.5.8",
@@ -301,7 +304,7 @@
           "localizedDescription": "## What's Changed\r\n* UI Improvements for the Anisette Servers View. by @0-Blu in https://github.com/SideStore/SideStore/pull/672\r\n* Added more feedback options. by @0-Blu in https://github.com/SideStore/SideStore/pull/673\r\n* Fix SideJITServer Support for iOS 17+ by @stossy11 in https://github.com/SideStore/SideStore/pull/674\r\n* Makes revoking optional by @junepark678 in https://github.com/SideStore/SideStore/pull/675\r\n* Better pairing file info by @bogotesr in https://github.com/SideStore/SideSt",
           "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.5.8/SideStore.ipa",
           "size": 9351984,
-          "minOSVersion": "15.0"
+          "minOSVersion": "14.0"
         }
       ]
     },
@@ -314,15 +317,15 @@
       "iconURL": "https://raw.githubusercontent.com/rooootdev/lara/main/lara/other/media.xcassets/AppIcon.appiconset/square.png",
       "tintColor": "#C013F5",
       "screenshotURLs": [],
-      "version": "2026.09.25-nightly",
+      "version": "0.2",
       "versionDate": "2026-09-25T21:21:54Z",
       "versionDescription": "[pre-release] lara nightly build\n\nLast 12 hours commits:\n\n- 879e3fa Update README.md (roooot)",
       "downloadURL": "https://github.com/rooootdev/lara/releases/download/nightly/lara.ipa",
       "size": 6928809,
       "versions": [
         {
-          "version": "2026.09.25-nightly",
-          "buildVersion": "1",
+          "version": "0.2",
+          "buildVersion": "Release",
           "date": "2026-09-25T21:21:54Z",
           "localizedDescription": "[pre-release] lara nightly build\n\nLast 12 hours commits:\n\n- 879e3fa Update README.md (roooot)",
           "downloadURL": "https://github.com/rooootdev/lara/releases/download/nightly/lara.ipa",
@@ -330,17 +333,8 @@
           "minOSVersion": "16.0"
         },
         {
-          "version": "0.2",
-          "buildVersion": "1",
-          "date": "2026-05-22T19:53:53Z",
-          "localizedDescription": "## UX Changes\r\n- Moved tweaks into its own accessible section, and put Tools there at the bottom.\r\n- Moved logs out of the tab bar and into a toolbar item at the top of the primary views (you can change this back in settings).\r\n- Settings has been completed reorganized, with some new customization toggles for the app itself.\r\n\r\n## Applying/Handling\r\n- Fixed kernelcache weirdness (kernelcache is now fetched locally)\r\n- Hybrid will now be used by default.\r\n\r\n## Tweaks\r\n- Rewrote MobileGestalt View",
-          "downloadURL": "https://github.com/rooootdev/lara/releases/download/0.2/lara_v0.2.ipa",
-          "size": 5474210,
-          "minOSVersion": "16.0"
-        },
-        {
           "version": "0.1",
-          "buildVersion": "1",
+          "buildVersion": "Release",
           "date": "2026-05-01T18:30:04Z",
           "localizedDescription": "this is the first proper release of lara. lara will be undergoing some major frontend and backend changes in the coming days and weeks, so expect things to move around, change, and function better. this build has a lot of issues currently, such as remotecall being super broken. if you are experiencing issues, it's recommended to wait rather than to open an issue or ask for support. if you are a contributor, it is highly recommended to not contribute anything until the rewrite is complete.",
           "downloadURL": "https://github.com/rooootdev/lara/releases/download/0.1/lara_v0.1.ipa",

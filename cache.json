@@ -1,0 +1,194 @@
+{
+ "https://github.com/roothide/Dopamine-roothide/releases/download/30/Dopamine-roothide-3.0.13-30.ipa|55348740|2026-11-06T02:13:31Z": {
+  "bundle": "com.opa334.Dopamine-roothide",
+  "version": "3.0.13-30",
+  "build": "1",
+  "minos": "15.0"
+ },
+ "https://github.com/roothide/Dopamine-roothide/releases/download/29/Dopamine.ipa|55345060|2026-10-29T14:30:33Z": {
+  "bundle": "com.opa334.Dopamine-roothide",
+  "version": "3.0.12-29",
+  "build": "1",
+  "minos": "15.0"
+ },
+ "https://github.com/roothide/Dopamine-roothide/releases/download/28/Dopamine-2026-10-25_20-23-30.ipa|55497406|2026-10-25T13:26:25Z": {
+  "bundle": "com.opa334.Dopamine-roothide",
+  "version": "3.0.12-28",
+  "build": "1",
+  "minos": "15.0"
+ },
+ "https://github.com/roothide/Dopamine-roothide/releases/download/27/Dopamine.ipa|54863273|2026-09-12T11:13:02Z": {
+  "bundle": "com.opa334.Dopamine-roothide",
+  "version": "2.4.9.27",
+  "build": "1",
+  "minos": "15.0"
+ },
+ "https://github.com/roothide/Dopamine-roothide/releases/download/26/Dopamine.ipa|54859511|2026-09-07T08:45:31Z": {
+  "bundle": "com.opa334.Dopamine-roothide",
+  "version": "2.4.9.26",
+  "build": "1",
+  "minos": "15.0"
+ },
+ "https://github.com/roothide/Dopamine-roothide/releases/download/25/Dopamine.ipa|54808488|2026-06-12T09:35:42Z": {
+  "bundle": "com.opa334.Dopamine-roothide",
+  "version": "2.4.9.25",
+  "build": "1",
+  "minos": "15.0"
+ },
+ "https://github.com/roothide/Dopamine-roothide/releases/download/24/Dopamine.ipa|54816344|2026-04-23T03:00:22Z": {
+  "bundle": "com.opa334.Dopamine-roothide",
+  "version": "2.4.9.24",
+  "build": "1",
+  "minos": "15.0"
+ },
+ "https://github.com/roothide/Dopamine-roothide/releases/download/23/Dopamine.ipa|54815789|2026-04-22T02:43:42Z": {
+  "bundle": "com.opa334.Dopamine-roothide",
+  "version": "2.4.9.23",
+  "build": "1",
+  "minos": "15.0"
+ },
+ "https://github.com/roothide/Dopamine-roothide/releases/download/22/Dopamine.ipa|54798530|2026-04-01T09:24:10Z": {
+  "bundle": "com.opa334.Dopamine-roothide",
+  "version": "2.4.9.22",
+  "build": "1",
+  "minos": "15.0"
+ },
+ "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer.ipa|4797973|2026-11-08T09:11:52Z": {
+  "bundle": "com.kdt.livecontainer",
+  "version": "3.8.13",
+  "build": "3.8.13",
+  "minos": "15.0"
+ },
+ "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa|4707271|2026-07-17T07:44:09Z": {
+  "bundle": "com.kdt.livecontainer",
+  "version": "3.8.0",
+  "build": "3.8.0",
+  "minos": "15.0"
+ },
+ "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer.ipa|4523860|2026-02-27T04:18:01Z": {
+  "bundle": "com.kdt.livecontainer",
+  "version": "3.7.2",
+  "build": "3.7.2",
+  "minos": "15.0"
+ },
+ "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.0/LiveContainer.ipa|4521039|2026-02-19T03:16:48Z": {
+  "bundle": "com.kdt.livecontainer",
+  "version": "3.7.0",
+  "build": "3.7.0",
+  "minos": "15.0"
+ },
+ "https://github.com/LiveContainer/LiveContainer/releases/download/3.6.1/LiveContainer.ipa|4232092|2025-08-19T04:10:27Z": {
+  "bundle": "com.kdt.livecontainer",
+  "version": "3.6.1",
+  "build": "3.6.1",
+  "minos": "15.0"
+ },
+ "https://github.com/LiveContainer/LiveContainer/releases/download/3.6.0/LiveContainer.ipa|4223004|2025-08-01T07:51:08Z": {
+  "bundle": "com.kdt.livecontainer",
+  "version": "3.6.0",
+  "build": "3.6.0",
+  "minos": "15.0"
+ },
+ "https://github.com/LiveContainer/LiveContainer/releases/download/3.5.1/LiveContainer.ipa|2928772|2025-06-16T06:23:46Z": {
+  "bundle": "com.kdt.livecontainer",
+  "version": "3.5.1",
+  "build": "3.5.1",
+  "minos": "15.0"
+ },
+ "https://github.com/LiveContainer/LiveContainer/releases/download/3.5.0/LiveContainer.ipa|2928946|2025-06-15T16:20:11Z": {
+  "bundle": "com.kdt.livecontainer",
+  "version": "3.5.0",
+  "build": "3.5.0",
+  "minos": "15.0"
+ },
+ "https://github.com/LiveContainer/LiveContainer/releases/download/3.4.0/LiveContainer.ipa|2764540|2025-04-20T10:39:31Z": {
+  "bundle": "com.kdt.livecontainer",
+  "version": "3.4.0",
+  "build": "3.4.0",
+  "minos": "15.0"
+ },
+ "https://github.com/SideStore/SideStore/releases/download/nightly/SideStore.ipa|30681634|2026-10-27T04:19:40Z": {
+  "bundle": "com.SideStore.SideStore",
+  "version": "0.7.0-20261027.1507+cd260851",
+  "build": "0700",
+  "minos": "15.0"
+ },
+ "https://github.com/SideStore/SideStore/releases/download/0.7.0-alpha/SideStore.ipa|27770821|2026-09-15T11:12:45Z": {
+  "bundle": "com.SideStore.SideStore",
+  "version": "0.7.0-20260911.328+6032424a",
+  "build": "0700",
+  "minos": "15.0"
+ },
+ "https://github.com/SideStore/SideStore/releases/download/alpha/SideStore.ipa|27770821|2026-09-11T21:26:05Z": {
+  "bundle": "com.SideStore.SideStore",
+  "version": "0.7.0-20260911.328+6032424a",
+  "build": "0700",
+  "minos": "15.0"
+ },
+ "https://github.com/SideStore/SideStore/releases/download/0.6.4/SideStore.ipa|27609918|2026-09-09T17:59:51Z": {
+  "bundle": "com.SideStore.SideStore",
+  "version": "0.6.4",
+  "build": "0604",
+  "minos": "15.0"
+ },
+ "https://github.com/SideStore/SideStore/releases/download/0.6.3/SideStore.ipa|28632252|2026-05-05T06:46:46Z": {
+  "bundle": "com.SideStore.SideStore",
+  "version": "0.6.3",
+  "build": "0603",
+  "minos": "15.0"
+ },
+ "https://github.com/SideStore/SideStore/releases/download/0.6.2/SideStore.ipa|28873303|2025-07-01T01:20:21Z": {
+  "bundle": "com.SideStore.SideStore",
+  "version": "0.6.2",
+  "build": "0602",
+  "minos": "15.0"
+ },
+ "https://github.com/SideStore/SideStore/releases/download/0.6.1/SideStore.ipa|26436952|2025-04-09T05:11:33Z": {
+  "bundle": "com.SideStore.SideStore",
+  "version": "0.6.1",
+  "build": "0601",
+  "minos": "15.0"
+ },
+ "https://github.com/SideStore/SideStore/releases/download/0.6.0/SideStore.ipa|26349555|2025-03-08T18:42:29Z": {
+  "bundle": "com.SideStore.SideStore",
+  "version": "0.6.0",
+  "build": "6000",
+  "minos": "15.0"
+ },
+ "https://github.com/SideStore/SideStore/releases/download/0.5.10/SideStore.ipa|9267842|2024-12-27T08:53:28Z": {
+  "bundle": "com.SideStore.SideStore",
+  "version": "0.5.10-pr.812+2d17a45",
+  "build": "1",
+  "minos": "14.0"
+ },
+ "https://github.com/SideStore/SideStore/releases/download/0.5.9/SideStore.ipa|9266547|2024-12-24T13:55:04Z": {
+  "bundle": "com.SideStore.SideStore",
+  "version": "0.5.9",
+  "build": "1",
+  "minos": "14.0"
+ },
+ "https://github.com/SideStore/SideStore/releases/download/0.5.8/SideStore.ipa|9351984|2024-09-07T18:47:16Z": {
+  "bundle": "com.SideStore.SideStore",
+  "version": "0.5.8",
+  "build": "1",
+  "minos": "14.0"
+ },
+ "https://github.com/rooootdev/lara/releases/download/nightly/lara.ipa|6928809|2026-09-25T21:21:54Z": {
+  "bundle": "com.roooot.lara",
+  "version": "0.2",
+  "build": "Release",
+  "minos": "16.0"
+ },
+ "https://github.com/rooootdev/lara/releases/download/0.2/lara_v0.2.ipa|5474210|2026-05-22T19:53:37Z": {
+  "bundle": "com.roooot.lara",
+  "version": "0.2",
+  "build": "Release",
+  "minos": "16.0"
+ },
+ "https://github.com/rooootdev/lara/releases/download/0.1/lara_v0.1.ipa|5972209|2026-05-01T18:27:39Z": {
+  "bundle": "com.roooot.lara",
+  "version": "0.1",
+  "build": "Release",
+  "minos": "16.0"
+ }
+}
