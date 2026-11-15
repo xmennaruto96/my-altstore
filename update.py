@@ -3,7 +3,7 @@ from datetime import datetime
 
 # ---- config -------------------------------------------------------------
 SOURCE = {
-    "name": "My Sideload Source",
+    "name": "My Source",
     "identifier": "com.example.mysource",   # change to something unique
 }
 MAX_VERSIONS = 10          # newest N builds kept per app
