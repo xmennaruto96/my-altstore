@@ -69,12 +69,26 @@ def gh(url):
     return json.load(urllib.request.urlopen(urllib.request.Request(url, headers=h)))
 
 
-def make_version(rel):
+def is_rolling(rel):
+    # tags like "nightly" / "alpha" are re-pointed and re-uploaded in place
+    return not re.match(r"^v?\d", rel["tag_name"])
+
+
+def build_date(rel, asset):
+    # a rolling release keeps its ORIGINAL published_at forever (e.g. 2023),
+    # so use the time the asset was actually (re)uploaded instead
+    return asset["updated_at"] if is_rolling(rel) else rel["published_at"]
+
+
+def make_version(rel, date):
+    # prefer the exact build version from the release notes,
+    # e.g. "Version: `0.7.0-20261027.1507+cd260851`" (matches the IPA's Info.plist)
+    m = re.search(r"Version:\s*`([^`]+)`", rel.get("body") or "")
+    if m:
+        return m.group(1)
     tag = rel["tag_name"].lstrip("v")
-    date = rel["published_at"][:10].replace("-", ".")
-    # rolling tags like "nightly"/"alpha" are reused, so make them unique
-    if not re.match(r"^\d", tag):
-        return f"{date}-{tag}"
+    if is_rolling(rel):
+        return f"{date[:10].replace('-', '.')}-{tag}"
     return tag
 
 
@@ -88,17 +102,25 @@ def build_app(cfg):
         if not asset:
             continue
         notes = (rel.get("body") or "").strip()[:500] or rel.get("name") or rel["tag_name"]
+        date = build_date(rel, asset)
         versions.append({
-            "version": make_version(rel),
+            "version": make_version(rel, date),
             "buildVersion": "1",
-            "date": rel["published_at"],
+            "date": date,
             "localizedDescription": ("[pre-release] " if rel["prerelease"] else "") + notes,
             "downloadURL": asset["browser_download_url"],
             "size": asset["size"],
             "minOSVersion": cfg["min_os"],
         })
     versions.sort(key=lambda v: v["date"], reverse=True)
-    versions = versions[:MAX_VERSIONS]
+    # drop duplicate version strings (e.g. "alpha" and "0.7.0-alpha" can be
+    # the same commit); the newest upload wins
+    seen, unique = set(), []
+    for v in versions:
+        if v["version"] not in seen:
+            seen.add(v["version"])
+            unique.append(v)
+    versions = unique[:MAX_VERSIONS]
     if not versions:
         return None
     latest = versions[0]
