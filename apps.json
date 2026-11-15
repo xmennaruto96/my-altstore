@@ -1,0 +1,32 @@
+{
+  "name": "My roothide Source",
+  "identifier": "com.example.myroothide",
+  "apps": [
+    {
+      "name": "Dopamine (roothide)",
+      "bundleIdentifier": "com.opa334.Dopamine-roothide",
+      "minOSVersion": "15.0",
+      "developerName": "roothide",
+      "subtitle": "roothide + Dopamine 3",
+      "localizedDescription": "bug fixes and stability enhancements",
+      "iconURL": "https://raw.githubusercontent.com/opa334/Dopamine/2.x/Application/Dopamine/Assets.xcassets/AppIcon.appiconset/Icon-76%402x.png",
+      "tintColor": "097A73",
+      "screenshotURLs": [],
+      "version": "3.0.13-30",
+      "versionDate": "2026-11-06T02:18:04Z",
+      "versionDescription": "bug fixes and stability enhancements",
+      "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/30/Dopamine-roothide-3.0.13-30.ipa",
+      "size": 55348740,
+      "versions": [
+        {
+          "version": "3.0.13-30",
+          "date": "2026-11-06T02:18:04Z",
+          "localizedDescription": "bug fixes and stability enhancements",
+          "downloadURL": "https://github.com/roothide/Dopamine-roothide/releases/download/30/Dopamine-roothide-3.0.13-30.ipa",
+          "size": 55348740
+        }
+      ]
+    }
+  ],
+  "news": []
+}
