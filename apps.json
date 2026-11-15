@@ -110,7 +110,7 @@
       "tintColor": "#0784FC",
       "screenshotURLs": [],
       "version": "2026.11.08-nightly",
-      "versionDate": "2026-11-08T09:11:51Z",
+      "versionDate": "2026-11-08T09:11:52Z",
       "versionDescription": "[pre-release] **Commit:** [9d6ea09b05afa2c8fc537c372795a294db631311](https://github.com/LiveContainer/LiveContainer/commit/9d6ea09b05afa2c8fc537c372795a294db631311)\n**Message:** Support for built-in jit enablers, ram donors, helper process etc\n\nThis is a nightly release [created automatically with GitHub Actions workflow](https://github.com/LiveContainer/LiveContainer/actions/runs/42464599105/attempts/2).",
       "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer.ipa",
       "size": 4797973,
@@ -118,7 +118,7 @@
         {
           "version": "2026.11.08-nightly",
           "buildVersion": "1",
-          "date": "2026-11-08T09:11:51Z",
+          "date": "2026-11-08T09:11:52Z",
           "localizedDescription": "[pre-release] **Commit:** [9d6ea09b05afa2c8fc537c372795a294db631311](https://github.com/LiveContainer/LiveContainer/commit/9d6ea09b05afa2c8fc537c372795a294db631311)\n**Message:** Support for built-in jit enablers, ram donors, helper process etc\n\nThis is a nightly release [created automatically with GitHub Actions workflow](https://github.com/LiveContainer/LiveContainer/actions/runs/42464599105/attempts/2).",
           "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer.ipa",
           "size": 4797973,
@@ -207,14 +207,23 @@
       "iconURL": "https://raw.githubusercontent.com/SideStore/SideStore/develop/AltStore/Resources/Icons.xcassets/AppIcon.appiconset/1024.png",
       "tintColor": "#BA19F4",
       "screenshotURLs": [],
-      "version": "0.7.0-alpha",
-      "versionDate": "2026-09-15T11:12:49Z",
-      "versionDescription": "## Build Info\r\n\r\nBuilt at (UTC): `Fri Sep 11 21:25:58 2026`\r\nBuilt at (UTC date): `2026-09-11`\r\nCommit SHA: `6032424a0e56c1c319762e786099bdd9186a238b`\r\nVersion: `0.7.0-20260911.328+6032424a`\r\n\r\n#### What's Changed:\r\n- **fixes for 503 during sign-in**: There were some changes from apple server side which broke 0.6.4 and prior versions and prevent them from signing into sidestore. This temporary version addresses the sign-in issue with 503 status code\r\n\r\n#### Full Changelog: [0.6.4...0.7.0-alpha](",
-      "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.7.0-alpha/SideStore.ipa",
-      "size": 27770821,
+      "version": "0.7.0-20261027.1507+cd260851",
+      "versionDate": "2026-10-27T04:19:40Z",
+      "versionDescription": "[pre-release] This is an \u26a0\ufe0f **EXPERIMENTAL** \u26a0\ufe0f Nightly build for commit [cd260851ae99bf1fc946b123db24e89c8cd21dc6](https://github.com/SideStore/SideStore/commit/cd260851ae99bf1fc946b123db24e89c8cd21dc6).\n\nNightly builds are **extremely experimental builds only meant to be used by developers and beta testers. They often contain bugs and experimental features. Use at your own risk!**\n\n## Build Info\n\nBuilt at (UTC): `Tue Oct 27 04:19:32 2026`\nBuilt at (UTC date): `2026-10-27`\nCommit SHA: `cd260851ae99bf1fc946b1",
+      "downloadURL": "https://github.com/SideStore/SideStore/releases/download/nightly/SideStore.ipa",
+      "size": 30681634,
       "versions": [
         {
-          "version": "0.7.0-alpha",
+          "version": "0.7.0-20261027.1507+cd260851",
+          "buildVersion": "1",
+          "date": "2026-10-27T04:19:40Z",
+          "localizedDescription": "[pre-release] This is an \u26a0\ufe0f **EXPERIMENTAL** \u26a0\ufe0f Nightly build for commit [cd260851ae99bf1fc946b123db24e89c8cd21dc6](https://github.com/SideStore/SideStore/commit/cd260851ae99bf1fc946b123db24e89c8cd21dc6).\n\nNightly builds are **extremely experimental builds only meant to be used by developers and beta testers. They often contain bugs and experimental features. Use at your own risk!**\n\n## Build Info\n\nBuilt at (UTC): `Tue Oct 27 04:19:32 2026`\nBuilt at (UTC date): `2026-10-27`\nCommit SHA: `cd260851ae99bf1fc946b1",
+          "downloadURL": "https://github.com/SideStore/SideStore/releases/download/nightly/SideStore.ipa",
+          "size": 30681634,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "0.7.0-20260911.328+6032424a",
           "buildVersion": "1",
           "date": "2026-09-15T11:12:49Z",
           "localizedDescription": "## Build Info\r\n\r\nBuilt at (UTC): `Fri Sep 11 21:25:58 2026`\r\nBuilt at (UTC date): `2026-09-11`\r\nCommit SHA: `6032424a0e56c1c319762e786099bdd9186a238b`\r\nVersion: `0.7.0-20260911.328+6032424a`\r\n\r\n#### What's Changed:\r\n- **fixes for 503 during sign-in**: There were some changes from apple server side which broke 0.6.4 and prior versions and prevent them from signing into sidestore. This temporary version addresses the sign-in issue with 503 status code\r\n\r\n#### Full Changelog: [0.6.4...0.7.0-alpha](",
@@ -286,15 +295,6 @@
           "minOSVersion": "15.0"
         },
         {
-          "version": "2024.12.14-alpha",
-          "buildVersion": "1",
-          "date": "2024-12-14T16:26:00Z",
-          "localizedDescription": "[pre-release] This is an \u26a0\ufe0f **EXPERIMENTAL** \u26a0\ufe0f Alpha build for commit [6032424a0e56c1c319762e786099bdd9186a238b](https://github.com/SideStore/SideStore/commit/6032424a0e56c1c319762e786099bdd9186a238b).\r\n\r\nAlpha builds are **extremely experimental builds only meant to be used by developers and beta testers. They often contain bugs and experimental features. Use at your own risk!**\r\n\r\nIf you want to try out new features early but want a lower chance of bugs, you can look at [SideStore/SideStore nightly](https:",
-          "downloadURL": "https://github.com/SideStore/SideStore/releases/download/alpha/SideStore.ipa",
-          "size": 27770821,
-          "minOSVersion": "15.0"
-        },
-        {
           "version": "0.5.8",
           "buildVersion": "1",
           "date": "2024-09-07T18:42:54Z",
@@ -314,12 +314,21 @@
       "iconURL": "https://raw.githubusercontent.com/rooootdev/lara/main/lara/other/media.xcassets/AppIcon.appiconset/square.png",
       "tintColor": "#C013F5",
       "screenshotURLs": [],
-      "version": "0.2",
-      "versionDate": "2026-05-22T19:53:53Z",
-      "versionDescription": "## UX Changes\r\n- Moved tweaks into its own accessible section, and put Tools there at the bottom.\r\n- Moved logs out of the tab bar and into a toolbar item at the top of the primary views (you can change this back in settings).\r\n- Settings has been completed reorganized, with some new customization toggles for the app itself.\r\n\r\n## Applying/Handling\r\n- Fixed kernelcache weirdness (kernelcache is now fetched locally)\r\n- Hybrid will now be used by default.\r\n\r\n## Tweaks\r\n- Rewrote MobileGestalt View",
-      "downloadURL": "https://github.com/rooootdev/lara/releases/download/0.2/lara_v0.2.ipa",
-      "size": 5474210,
+      "version": "2026.09.25-nightly",
+      "versionDate": "2026-09-25T21:21:54Z",
+      "versionDescription": "[pre-release] lara nightly build\n\nLast 12 hours commits:\n\n- 879e3fa Update README.md (roooot)",
+      "downloadURL": "https://github.com/rooootdev/lara/releases/download/nightly/lara.ipa",
+      "size": 6928809,
       "versions": [
+        {
+          "version": "2026.09.25-nightly",
+          "buildVersion": "1",
+          "date": "2026-09-25T21:21:54Z",
+          "localizedDescription": "[pre-release] lara nightly build\n\nLast 12 hours commits:\n\n- 879e3fa Update README.md (roooot)",
+          "downloadURL": "https://github.com/rooootdev/lara/releases/download/nightly/lara.ipa",
+          "size": 6928809,
+          "minOSVersion": "16.0"
+        },
         {
           "version": "0.2",
           "buildVersion": "1",
@@ -327,15 +336,6 @@
           "localizedDescription": "## UX Changes\r\n- Moved tweaks into its own accessible section, and put Tools there at the bottom.\r\n- Moved logs out of the tab bar and into a toolbar item at the top of the primary views (you can change this back in settings).\r\n- Settings has been completed reorganized, with some new customization toggles for the app itself.\r\n\r\n## Applying/Handling\r\n- Fixed kernelcache weirdness (kernelcache is now fetched locally)\r\n- Hybrid will now be used by default.\r\n\r\n## Tweaks\r\n- Rewrote MobileGestalt View",
           "downloadURL": "https://github.com/rooootdev/lara/releases/download/0.2/lara_v0.2.ipa",
           "size": 5474210,
-          "minOSVersion": "16.0"
-        },
-        {
-          "version": "2026.05.05-nightly",
-          "buildVersion": "1",
-          "date": "2026-05-05T22:03:54Z",
-          "localizedDescription": "[pre-release] lara nightly build\n\nLast 12 hours commits:\n\n- 879e3fa Update README.md (roooot)",
-          "downloadURL": "https://github.com/rooootdev/lara/releases/download/nightly/lara.ipa",
-          "size": 6928809,
           "minOSVersion": "16.0"
         },
         {
