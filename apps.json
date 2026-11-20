@@ -113,18 +113,18 @@
       "tintColor": "#0784FC",
       "screenshotURLs": [],
       "version": "3.8.14",
-      "versionDate": "2026-11-15T14:10:10Z",
-      "versionDescription": "[pre-release] **Commit:** [b7cfda60c39933a94d616f2a358ac2e48fd4e5cd](https://github.com/LiveContainer/LiveContainer/commit/b7cfda60c39933a94d616f2a358ac2e48fd4e5cd)\n**Message:** don't load source until source view is opened, implement #1726, bump version\n\nThis is a nightly release [created automatically with GitHub Actions workflow](https://github.com/LiveContainer/LiveContainer/actions/runs/43722603537/attempts/1).",
+      "versionDate": "2026-11-20T13:13:06Z",
+      "versionDescription": "[pre-release] **Commit:** [0630a2a4aecf191d434c33212fa8a8607ae8d56b](https://github.com/LiveContainer/LiveContainer/commit/0630a2a4aecf191d434c33212fa8a8607ae8d56b)\n**Message:** Disable debug dylib, unconditionally remove SS files for extra LCs\n\nThis is a nightly release [created automatically with GitHub Actions workflow](https://github.com/LiveContainer/LiveContainer/actions/runs/44741989060/attempts/1).",
       "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer.ipa",
-      "size": 4800179,
+      "size": 4800476,
       "versions": [
         {
           "version": "3.8.14",
           "buildVersion": "3.8.14",
-          "date": "2026-11-15T14:10:10Z",
-          "localizedDescription": "[pre-release] **Commit:** [b7cfda60c39933a94d616f2a358ac2e48fd4e5cd](https://github.com/LiveContainer/LiveContainer/commit/b7cfda60c39933a94d616f2a358ac2e48fd4e5cd)\n**Message:** don't load source until source view is opened, implement #1726, bump version\n\nThis is a nightly release [created automatically with GitHub Actions workflow](https://github.com/LiveContainer/LiveContainer/actions/runs/43722603537/attempts/1).",
+          "date": "2026-11-20T13:13:06Z",
+          "localizedDescription": "[pre-release] **Commit:** [0630a2a4aecf191d434c33212fa8a8607ae8d56b](https://github.com/LiveContainer/LiveContainer/commit/0630a2a4aecf191d434c33212fa8a8607ae8d56b)\n**Message:** Disable debug dylib, unconditionally remove SS files for extra LCs\n\nThis is a nightly release [created automatically with GitHub Actions workflow](https://github.com/LiveContainer/LiveContainer/actions/runs/44741989060/attempts/1).",
           "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer.ipa",
-          "size": 4800179,
+          "size": 4800476,
           "minOSVersion": "15.0"
         },
         {

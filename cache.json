@@ -196,5 +196,11 @@
   "version": "3.8.14",
   "build": "3.8.14",
   "minos": "15.0"
+ },
+ "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer.ipa|4800476|2026-11-20T13:13:06Z": {
+  "bundle": "com.kdt.livecontainer",
+  "version": "3.8.14",
+  "build": "3.8.14",
+  "minos": "15.0"
  }
 }
